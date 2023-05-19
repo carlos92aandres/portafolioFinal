@@ -1,22 +1,20 @@
-import React from "react";
 import Modal from "./Modal";
 
-const Header = ({ isShowModal, setIsShowModal }) => {
+const Header = ({ isShowModal, setIsShowModal, contact,setContact}) => {
+  
   const changeShowModal = () => {
     setIsShowModal(!isShowModal);
   };
 
-  const BotonDescargaPDF = () => {
-    const handleDescargarPDF = () => {
-      window.location.href = '/Hoja.pdf';
-    };
+  const handleOpen = () => {
+    setContact(!contact)
+  }
+
   
-    return (
-      <div>
-        
-      </div>
-    );
-  };
+ 
+  
+    
+  
   
 
   return (
@@ -73,9 +71,9 @@ const Header = ({ isShowModal, setIsShowModal }) => {
       <section className="py-[2rem]">
         <div className="flex  justify-center gap-2">
           <button  className="text-black bg-yellow-600 py-3 rounded-md px-5 shadow-sm hover:shadow-yellow-700 hover:-tracking-tighter duration-200 font-semibold">
-          <a href="https://drive.google.com/file/d/1_c28ohFoF0NVB4qCcLOZe75AGa86uXKZ/view?usp=sharing" download>download cv <i className="bx bx-down-arrow-alt"></i></a>
+          <a href="/Hoja.pdf" download="cvCarlosGarcia">download cv <i className="bx bx-down-arrow-alt"></i></a>
           </button>
-          <button className=" bg-slate-800 py-3 px-5 rounded-md shadow-sm hover:shadow-slate-700 hover:-tracking-tighter duration-200  font-semibold">
+          <button onClick={handleOpen} className=" bg-slate-800 py-3 px-5 rounded-md shadow-sm hover:shadow-slate-700 hover:-tracking-tighter duration-200  font-semibold">
             contact me!
             <a href="/Hoja.pdf" type="pdf"></a>
           </button>

@@ -6,7 +6,7 @@ const Modal = () => {
       <article className="w-[300px] rounded-md py-2 border-[1px] border-slate-700 ">
         <h4 className="py-4 font-semibold">React</h4>
         <div className="px-5 h-[200px] min-w-screen mb-3">
-          <img
+          <img loading="lazy"
             className="w-full h-full object-cover rounded "
             src="/react.png"
             alt=""
@@ -16,7 +16,7 @@ const Modal = () => {
       <article className="w-[300px] rounded-md py-2 border-[1px] border-slate-700 ">
         <h4 className="py-4 font-semibold">Javascript</h4>
         <div className="px-5 h-[200px] min-w-screen mb-3">
-          <img
+          <img loading="lazy"
             className="w-full h-full object-cover rounded "
             src="/js.png"
             alt=""
@@ -26,7 +26,7 @@ const Modal = () => {
       <article className="w-[300px] rounded-md py-2 border-[1px] border-slate-700 ">
         <h4 className="py-4 font-semibold">Next.js</h4>
         <div className="px-5 h-[200px] min-w-screen mb-3">
-          <img
+          <img loading="lazy"
             className="w-full h-full object-cover rounded "
             src="/next.png"
             alt=""
@@ -36,7 +36,7 @@ const Modal = () => {
       <article className="w-[300px] rounded-md py-2 border-[1px] border-slate-700 ">
         <h4 className="py-4 font-semibold">Redux.js</h4>
         <div className="px-5 h-[200px] min-w-screen mb-3">
-          <img
+          <img loading="lazy"
             className="w-full h-full object-cover rounded "
             src="/redux.png"
             alt=""
@@ -46,7 +46,7 @@ const Modal = () => {
       <article className="w-[300px] rounded-md py-2 border-[1px] border-slate-700 ">
         <h4 className="py-4 font-semibold">Node.js</h4>
         <div className="px-5 h-[200px] min-w-screen mb-3">
-          <img
+          <img loading="lazy"
             className="w-full h-full object-cover rounded "
             src="/node.png"
             alt=""
@@ -56,7 +56,7 @@ const Modal = () => {
       <article className="w-[300px] rounded-md py-2 border-[1px] border-slate-700 ">
         <h4 className="py-4 font-semibold">Tailwind</h4>
         <div className="px-5 h-[200px] min-w-screen mb-3">
-          <img
+          <img loading="lazy"
             className="w-full h-full object-fill rounded "
             src="/tail.png"
             alt=""
@@ -66,7 +66,7 @@ const Modal = () => {
       <article className="w-[300px] rounded-md py-2 border-[1px] border-slate-700 ">
         <h4 className="py-4 font-semibold">Axios</h4>
         <div className="px-5 h-[200px] min-w-screen mb-3">
-          <img
+          <img loading="lazy"
             className="w-full h-full object-contain rounded "
             src="/axios.png"
             alt=""
